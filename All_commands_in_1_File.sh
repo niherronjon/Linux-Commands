@@ -1,3 +1,9 @@
+# Author : Niher Ronjon Pramanik
+
+#All Useful Linux Commands and C program for priority scheduling algorithms
+
+
+
 pwd 
 #print working directory
 

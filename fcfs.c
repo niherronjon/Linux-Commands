@@ -9,7 +9,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n;
     printf("Enter number of processes: ");
     scanf("%d", &n);
@@ -17,7 +18,8 @@ int main() {
     int processes[n], burstTime[n], waitingTime[n], turnaroundTime[n];
     int totalWaitingTime = 0, totalTurnaroundTime = 0;
 
-    for (int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++)
+    {
         processes[i] = i + 1;
         printf("Enter burst time for process %d: ", i + 1);
         scanf("%d", &burstTime[i]);

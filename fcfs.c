@@ -26,16 +26,19 @@ int main()
     }
 
     waitingTime[0] = 0;
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; i++)
+    {
         waitingTime[i] = waitingTime[i - 1] + burstTime[i - 1];
     }
 
-    for (int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++)
+    {
         turnaroundTime[i] = waitingTime[i] + burstTime[i];
     }
 
     printf("Process\tBurst Time\tWaiting Time\tTurnaround Time\n");
-    for (int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++)
+    {
         printf("%d\t%d\t\t%d\t\t%d\n", processes[i], burstTime[i], waitingTime[i], turnaroundTime[i]);
         totalWaitingTime += waitingTime[i];
         totalTurnaroundTime += turnaroundTime[i];

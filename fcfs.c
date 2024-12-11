@@ -1,5 +1,5 @@
 //First Come First Serve (FCFS)
-//Author : Niher
+//Author : Niher ronjon
 
 // New File create : touch fcfs.c
 //Open IDE : vi fcfs.c

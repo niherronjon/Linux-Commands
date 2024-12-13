@@ -1,3 +1,7 @@
+# Author: Niher Ronjon 
+
+
+
 #!/bin/bash
 
 # A - Commands

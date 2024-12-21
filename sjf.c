@@ -1,6 +1,6 @@
 //Shortest Job First (SJF)
 
-
+//
 
 // New File create : touch sjf.c
 //Open IDE : vi sjf.c

@@ -9,10 +9,12 @@ alias l='ls -lah'        # Create an alias for listing files
 apt update && apt upgrade -y   # Update and upgrade system packages
 awk '{print $1}' /etc/passwd  # Example of using awk to process a file
 
+
 # B - Commands
 basename /path/to/file.txt  # Extract filename from a path
 bc <<< "5+5"                # Simple calculator
 bash --version              # Display bash version
+
 
 # C - Commands
 cat /etc/passwd             # Display contents of a file
